@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="Projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Decorative Elements -->
+        <div class="decorative-circle circle-1"></div>
+        <div class="decorative-circle circle-2"></div>
+        <div class="decorative-circle circle-3"></div>
+        <div class="decorative-dots"></div>
+        
+        <!-- Navigation -->
+        <header class="navbar">
+            <div class="container">
+                <div class="brand">
+                    <div class="brand-icon">D</div>
+                    <span class="brand-text">Portfolio</span>
+                </div>
+
+                <button class="mobile-menu-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <nav class="navbar-nav">
+                    <a href="Home.html" class="nav-link">Home</a>
+                    <a href="About.html" class="nav-link">About Me</a>
+                    <a href="Projects.html" class="nav-link active">Projects</a>
+                    <a href="Contact.html" class="nav-link">Contact</a>
+                    <div class="nav-divider"></div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-badge">
+                            <span class="badge-dot"></span>
+                            <span>Project Showcase</span>
+                        </div>
+                        <h1 class="hero-title">Creative <span class="highlight">Projects</span> & Digital <span class="highlight">Experiences</span></h1>
+                        <p class="hero-description">
+                            Explore my collection of web applications, mobile apps, and design projects. 
+                            Each creation represents my passion for building beautiful, functional digital experiences.
+                        </p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">6+</div>
+                                <div class="stat-label">Projects</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-number">3</div>
+                                <div class="stat-label">Categories</div>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat-item">
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label">Years</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="visual-container">
+                            <div class="floating-card card-1">
+                                <div class="card-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                        <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                        <polyline points="21 15 16 10 5 21"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="card-label">Design</div>
+                            </div>
+                            <div class="floating-card card-2">
+                                <div class="card-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="card-label">Code</div>
+                            </div>
+                            <div class="floating-card card-3">
+                                <div class="card-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                    </svg>
+                                </div>
+                                <div class="card-label">Secure</div>
+                            </div>
+                            <div class="floating-card card-4">
+                                <div class="card-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                    </svg>
+                                </div>
+                                <div class="card-label">Global</div>
+                            </div>
+                            <div class="center-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="filter-section">
+            <div class="container">
+                <div class="filter-container">
+                    <div class="search-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" placeholder="Search projects..." class="search-input">
+                    </div>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">
+                            <span class="btn-icon">✨</span>
+                            <span>All</span>
+                        </button>
+                        <button class="filter-btn" data-filter="web">
+                            <span class="btn-icon">🌐</span>
+                            <span>Web</span>
+                        </button>
+                        <button class="filter-btn" data-filter="mobile">
+                            <span class="btn-icon">📱</span>
+                            <span>Mobile</span>
+                        </button>
+                        <button class="filter-btn" data-filter="design">
+                            <span class="btn-icon">🤖</span>
+                            <span>AI</span>
+                        </button>
+                        <button class="filter-btn" data-filter="opensource">
+                            <span class="btn-icon">🔄</span>
+                            <span>Open Source</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <main class="projects-main">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Featured Project -->
+                    <div class="project-card featured" data-category="web">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="Images/AI.jpeg" alt="Koharu">
+                                    <div class="project-badges">
+                                        <span class="badge category-badge">AI</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Koharu</h3>
+                                    <p class="project-description">
+                                        Currently Koharu, a cutting-edge voice assistant with the potential to revolutionize the AI-driven
+                                        personal assistant space. Built using advanced natural language processing (NLP) and machine learning
+                                        techniques, Koharu aims to offer a smarter, more intuitive, and highly personalized user experience
+                                        compared to current voice assistants in the market.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Python</span>
+                                        <span class="tech-tag">Machine Learning</span>
+                                        <span class="tech-tag">Deep Learning</span>
+                                        <span class="tech-tag">Artificial Neural Network</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3 class="back-title">Project Highlights</h3>
+                                    <ul class="feature-list">
+                                        <li>Works on User voice blueprint</li>
+                                        <li>Performing Basic task</li>
+                                        <li>Perform System Task</li>
+                                        <li>Able to surf things on Internet</li>
+                                    </ul>
+                                    <div class="back-actions">
+                                        <a href="#" class="action-btn primary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                <polyline points="15,3 21,3 21,9"></polyline>
+                                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                                            </svg>
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="#" class="action-btn secondary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                            </svg>
+                                            <span>Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flip-btn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M3 12h18M3 6h18M3 18h18"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="flip-card-btn">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14L21 3"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Regular Projects -->
+                    <div class="project-card" data-category="mobile">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="Images/Attendance.jpeg" alt="Wifi-Attendance System">
+                                    <div class="project-badges">
+                                        <span class="badge category-badge">Mobile App</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Wifi-Attendance System</h3>
+                                    <p class="project-description">
+                                        An Application which is a Wi-Fi-based attendance system that marks user presence based on network connectivity, ensuring accurate and contactless tracking.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Android Studio</span>
+                                        <span class="tech-tag">Firebase</span>
+                                        <span class="tech-tag">Java</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3 class="back-title">Project Highlights</h3>
+                                    <ul class="feature-list">
+                                        <li>Real-Time Attendance Tracer</li>
+                                        <li>Attendance are taken in different Class</li>
+                                        <li>Generates a grapical report of Attendance</li>
+                                    </ul>
+                                    <div class="back-actions">
+                                        <a href="#" class="action-btn primary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                <polyline points="15,3 21,3 21,9"></polyline>
+                                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                                            </svg>
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="#" class="action-btn secondary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                            </svg>
+                                            <span>Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flip-btn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M3 12h18M3 6h18M3 18h18"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="flip-card-btn">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14L21 3"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="design">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="Images/App.jpeg" alt="Design System">
+                                    <div class="project-badges">
+                                        <span class="badge category-badge">App Development</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">PAHEL</h3>
+                                    <p class="project-description">
+                                        Developed an application that aggregates free learning resources from various websites
+                                        and platforms, enabling users to upskill efficiently at no cost.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Android Studio</span>
+                                        <span class="tech-tag">Firebase</span>
+                                        <span class="tech-tag">Java</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3 class="back-title">Project Highlights</h3>
+                                    <ul class="feature-list">
+                                        <li>Comprehensive component library</li>
+                                        <li>User Friendly UI</li>
+                                    </ul>
+                                    <div class="back-actions">
+                                        <a href="#" class="action-btn primary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                <polyline points="15,3 21,3 21,9"></polyline>
+                                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                                            </svg>
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="#" class="action-btn secondary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                            </svg>
+                                            <span>Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flip-btn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M3 12h18M3 6h18M3 18h18"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="flip-card-btn">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14L21 3"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="Images/Alumni.jpeg" alt="Task Management Tool">
+                                    <div class="project-badges">
+                                        <span class="badge category-badge">Web Development</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Alumni Nexus</h3>
+                                    <p class="project-description">
+                                        A platform where the Alumni's and the current studens come on a common ground and 
+                                        can share their experiences with each other
+                                    </p>
+                                    <div class="project-tech">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3 class="back-title">Project Highlights</h3>
+                                    <ul class="feature-list">
+                                        <li>Real-time collaboration</li>
+                                        <li>User Success Stories</li>
+                                        <li>User Friendly UI</li>
+                                    </ul>
+                                    <div class="back-actions">
+                                        <a href="#" class="action-btn primary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                <polyline points="15,3 21,3 21,9"></polyline>
+                                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                                            </svg>
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="#" class="action-btn secondary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                            </svg>
+                                            <span>Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flip-btn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M3 12h18M3 6h18M3 18h18"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="flip-card-btn">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14L21 3"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="opensource">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="project-image">
+                                    <img src="Images/Registration.jpeg" alt="React Component Library">
+                                    <div class="project-badges">
+                                        <span class="badge category-badge">Web Development</span>
+                                    </div>
+                                </div>
+                                <div class="project-content">
+                                    <h3 class="project-title">Birth & Death Registration System</h3>
+                                    <p class="project-description">
+                                        A digital platform for
+                                        Birth and Death Registration system for Banaskantha district, streamlining
+                                        the entire registration process online and eliminating traditional paperwork.
+                                    </p>
+                                    <div class="project-tech">
+                                        <span class="tech-tag">Html</span>
+                                        <span class="tech-tag">CSS</span>
+                                        <span class="tech-tag">Javascript</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <div class="back-content">
+                                    <h3 class="back-title">Project Highlights</h3>
+                                    <ul class="feature-list">
+                                        <li>User Firendly UI</li>
+                                        <li>Fully online Process</li>
+                                        <li>Secure and Safe</li>
+                                        <li>Reduce the Paper Work</li>
+                                    </ul>
+                                    <div class="back-actions">
+                                        <a href="#" class="action-btn primary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                                <polyline points="15,3 21,3 21,9"></polyline>
+                                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                                            </svg>
+                                            <span>Live Demo</span>
+                                        </a>
+                                        <a href="#" class="action-btn secondary">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                            </svg>
+                                            <span>Source Code</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="flip-btn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M3 12h18M3 6h18M3 18h18"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-stats">
+                            <div class="flip-card-btn">
+                                <span>View Details</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6"></path>
+                                    <path d="M10 14L21 3"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="Projects-script.js"></script>
+</body>
+</html>

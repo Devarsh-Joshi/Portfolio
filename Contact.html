@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Portfolio</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Decorative Elements -->
+        <div class="decorative-circle circle-1"></div>
+        <div class="decorative-circle circle-2"></div>
+        <div class="decorative-circle circle-3"></div>
+        <div class="decorative-dots"></div>
+        
+        <!-- Navigation -->
+        <header class="navbar">
+            <div class="container">
+                <div class="brand">
+                    <div class="brand-icon">D</div>
+                    <span class="brand-text">Portfolio</span>
+                </div>
+
+                <button class="mobile-menu-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <nav class="navbar-nav">
+                    <a href="Home.html" class="nav-link">Home</a>
+                    <a href="About.html" class="nav-link">About Me</a>
+                    <a href="Projects.html" class="nav-link">Projects</a>
+                    <a href="Contact.html" class="nav-link active">Contact</a>
+                    <div class="nav-divider"></div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Page Title -->
+        <section class="page-title">
+            <div class="container">
+                <h1 class="title">
+                    Get In Touch
+                    <div class="title-underline"></div>
+                </h1>
+                <p class="title-subtitle">
+                    Let's connect and collaborate on exciting projects. I'm always open to new opportunities.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Cards Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-cards">
+                    <!-- LinkedIn Card -->
+                    <div class="contact-card">
+                        <div class="card-content">
+                            <div class="card-icon linkedin-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="card-details">
+                                <h2 class="card-title">Connect on LinkedIn</h2>
+                                <p class="card-description">
+                                    Let's build our professional network. Connect with me on LinkedIn for updates on my latest projects and career milestones.
+                                </p>
+                                <a href="https://www.linkedin.com/in/devarsh-joshi-229288293/" class="card-button" target="_blank" rel="noopener noreferrer">
+                                    <span>View Profile</span>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 17L17 7"></path>
+                                        <path d="M7 7h10v10"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-decoration"></div>
+                    </div>
+
+                    <!-- Email Card -->
+                    <div class="contact-card">
+                        <div class="card-content">
+                            <div class="card-icon email-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="card-details">
+                                <h2 class="card-title">Email Me</h2>
+                                <p class="card-description">
+                                    Have a question or want to discuss a potential project? Feel free to reach out via email anytime.
+                                </p>
+                                <a href="mailto:mr.devarsh001@gmail.com" class="card-button" id="emailButton">
+                                    <span>mr.devarsh001@gmail.com</span>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Element -->
+        <div class="visual-element">
+            <div class="container">
+                <div class="connection-visual">
+                    <div class="node node-1"></div>
+                    <div class="node node-2"></div>
+                    <div class="node node-3"></div>
+                    <div class="connection connection-1"></div>
+                    <div class="connection connection-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Contact.js"></script>
+</body>
+</html>

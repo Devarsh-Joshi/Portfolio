@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <link rel="stylesheet" href="About.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="min-h-screen bg-gradient">
+        <!-- Navigation -->
+        <header class="navbar">
+            <div class="container">
+                <div class="brand">
+                    <div class="brand-icon">D</div>
+                    <span class="brand-text">Portfolio</span>
+                </div>
+
+                <button class="mobile-menu-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <nav class="navbar-nav">
+                    <a href="Home.html" class="nav-link">Home</a>
+                    <a href="About.html" class="nav-link active">About Me</a>
+                    <a href="Projects.html" class="nav-link">Projects</a>
+                    <a href="Contact.html" class="nav-link">Contact</a>
+                    <div class="nav-divider"></div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Page Title -->
+        <div class="page-title">
+            <div class="container">
+                <h1 class="title">
+                    About Me
+                    <div class="title-underline"></div>
+                </h1>
+            </div>
+        </div>
+
+        <!-- Main Content - Alternating Horizontal Sections -->
+        <main class="main-content">
+            <!-- Section 1: Who I Am - Text Left, Visual Right -->
+            <section class="content-section">
+                <div class="section-text">
+                    <div class="section-header">
+                        <div class="section-icon blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">Who I Am</h2>
+                    </div>
+                    <div class="section-divider blue-purple"></div>
+                    <p class="section-paragraph large">
+                        I’m a Computer Science and Engineering student specializing in Artificial Intelligence and Machine Learning, 
+                        passionate about solving real-world problems with smart technologies.
+                    </p>
+                    <p class="section-paragraph">
+                        My journey in tech has been shaped by active participation in numerous hackathons, 
+                        where I’ve not only competed at the national level but also recently organized an international-level hackathon from scratch. 
+                        These experiences have sharpened my skills in project development, teamwork, and leadership.
+                    </p>
+                </div>
+
+                <div class="section-visual">
+                    <div class="visual-card">
+                        <div class="card-gradient top-right"></div>
+                        <div class="card-content centered">
+                            <div class="profile-avatar">
+                                <img src="Images/Avatar.png" alt="Profile avatar" class="avatar-img">
+                            </div>
+                            <div class="card-info">
+                                <div class="info-label">Devarsh Hemal Joshi</div>
+                                <div class="info-value">AIML Enthusias</div>
+                                <div class="pulse-dots">
+                                    <div class="pulse-dot blue"></div>
+                                    <div class="pulse-dot purple"></div>
+                                    <div class="pulse-dot blue"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: Future Vision - Visual Left, Text Right -->
+            <section class="content-section reverse">
+                <div class="section-visual">
+                    <div class="visual-card">
+                        <div class="card-gradient bottom-left"></div>
+                        <div class="card-content centered">
+                            <div class="vision-icon">✨</div>
+                            <div class="card-info">
+                                <div class="info-label">Vision for Future</div>
+                                <div class="info-value">Innovation in the field of AI</div>
+                                <div class="vision-grid">
+                                    <div class="vision-item purple">
+                                        <div class="vision-text">AI Integration</div>
+                                    </div>
+                                    <div class="vision-item blue">
+                                        <div class="vision-text">Deep Learning</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-text">
+                    <div class="section-header">
+                        <div class="section-icon purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">My Future Vision</h2>
+                    </div>
+                    <div class="section-divider purple-blue"></div>
+                    <p class="section-paragraph large">
+                        I aspire to develop Koharu, a cutting-edge voice assistant with the potential to revolutionize 
+                        the AI-driven personal assistant space. Built using advanced natural language processing (NLP) 
+                        and machine learning techniques, Koharu aims to offer a smarter, more intuitive, and highly personalized 
+                        user experience.
+                    </p>
+                    <p class="section-paragraph">
+                        The future I envision involves seamless integration of AI, intuitive user interfaces, and sustainable
+                        design practices. I want to be at the forefront of this transformation, creating solutions that make
+                        technology more human and accessible.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 3: Achievements - Text Left, Visual Right -->
+            <section class="content-section">
+                <div class="section-text">
+                    <div class="section-header">
+                        <div class="section-icon blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                <path d="M4 22h16"></path>
+                                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                            </svg>
+                        </div>
+                        <h2 class="section-title">Achievements</h2>
+                    </div>
+                    <div class="section-divider blue-purple"></div>
+                    <p class="section-paragraph large">
+                        Throughout my journey, I've been fortunate to receive recognition for my work and contribute to meaningful
+                        projects that have made a real impact.
+                    </p>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <div class="achievement-dot blue"></div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">25,000Rs Grant</div>
+                                <div class="achievement-subtitle">New Vibrant Hackathon</div>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-dot purple"></div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">Only team to be selected from our district</div>
+                                <div class="achievement-subtitle">Google: Cove Carnival</div>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-dot blue"></div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">Runner UP</div>
+                                <div class="achievement-subtitle">Anvation 2023</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-visual">
+                    <div class="visual-card">
+                        <div class="card-gradient top-left"></div>
+                        <div class="card-content">
+                            <div class="trophy-container">
+                                <div class="trophy-icon">🏆</div>
+                                <div class="trophy-label">Recognition & Impact</div>
+                            </div>
+                            <div class="stats-grid">
+                                <div class="stat-item blue">
+                                    <div class="stat-number">7+</div>
+                                    <div class="stat-label">Projects</div>
+                                </div>
+                                <div class="stat-item purple">
+                                    <div class="stat-number">6+</div>
+                                    <div class="stat-label">Hackathon Participation</div>
+                                </div>
+                                <div class="stat-item blue">
+                                    <div class="stat-number">7+</div>
+                                    <div class="stat-label">Collabrated Teams</div>
+                                </div>
+                                <div class="stat-item purple">
+                                    <div class="stat-number">3</div>
+                                    <div class="stat-label">Presemted at National level</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-divider"></div>
+            © 2023 My Portfolio. Designed with inspiration from Genshin Impact UI.
+        </footer>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navbarNav = document.querySelector('.navbar-nav');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                navbarNav.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
